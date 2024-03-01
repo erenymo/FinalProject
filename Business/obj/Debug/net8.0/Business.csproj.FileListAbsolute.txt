@@ -1,0 +1,17 @@
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Business.deps.json
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Business.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Business.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/DataAccess.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Entities.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/DataAccess.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Entities.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.csproj.CopyComplete
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/refint/Business.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/ref/Business.dll
