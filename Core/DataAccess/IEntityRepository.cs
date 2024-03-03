@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
-using Entities.Abstract;
+using Core.Entities;
 
-namespace DataAccess.Abstract;
+namespace Core.DataAccess;
 // generic constraint --> generic kısıtlaması
 // class : referans tip tutabilir demek
 // IEntity : IEntity olabilir ya da IEntity implemente eden bir nesne olabilir

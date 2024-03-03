@@ -15,3 +15,6 @@
 /Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/refint/Business.dll
 /Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.pdb
 /Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/ref/Business.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/bin/Debug/net8.0/Core.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Business/obj/Debug/net8.0/Business.sourcelink.json

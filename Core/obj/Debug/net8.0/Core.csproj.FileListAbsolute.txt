@@ -1,0 +1,12 @@
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/bin/Debug/net8.0/Core.deps.json
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/bin/Debug/net8.0/Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/bin/Debug/net8.0/Core.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.sourcelink.json
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/refint/Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/Core.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/Core/obj/Debug/net8.0/ref/Core.dll

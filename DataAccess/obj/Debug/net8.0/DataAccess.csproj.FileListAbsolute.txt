@@ -13,3 +13,6 @@
 /Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll
 /Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.pdb
 /Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json
+/Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/bin/Debug/net8.0/Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/DataAccess/bin/Debug/net8.0/Core.pdb
