@@ -8,11 +8,27 @@ class Program
 {
     static void Main(string[] args)
     {
+        // DTO -> Data Transformation Object
+        ProductTest();
+        //CategoryTest();
+    }
+
+    private static void CategoryTest()
+    {
+        CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+        foreach (var category in categoryManager.GetAll())
+        {
+            Console.WriteLine(category.CategoryName);
+        }
+    }
+
+    private static void ProductTest()
+    {
         ProductManager productManager = new ProductManager(new EfProductDal());
         // SOLID (Open Closed Principle = Projene yeni bir özellik ekliyorsan mevcuttaki hiçbir koda dokunamazsın. (InMemory'den EntityFramework'e geçiş.) )
-        foreach (var product in productManager.GetByUnitPrice(40,100))
+        foreach (var product in productManager.GetProductDetails())
         {
-            Console.WriteLine(product.ProductName);
+            Console.WriteLine(product.ProductName + " - " + product.CategoryName);
         }
     }
 }
