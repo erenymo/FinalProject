@@ -12,7 +12,7 @@ namespace WebAPI.Controllers
     // bir controller'in controller olabilmesi için onun ControllerBase'den inherit edilmesi gerekiyor
     public class ProductsController : ControllerBase
     {
-        //Loosely Coupled (Soyuta bağımlılık)
+        //Loosely Coupled (Soyuta bağımlılık)(gevşek bağımlılık)
         //IoC Container --> Inversion of Control --> somut referans vermek
         private IProductService _productService;
 
