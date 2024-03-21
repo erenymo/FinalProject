@@ -16,6 +16,7 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddSingleton<IProductService, ProductManager>(); // Eğer constructor'da IProductService istenirse arkaplanda ProductManager new'le. 
         builder.Services.AddSingleton<IProductDal, EfProductDal>(); // Eğer birisi senden IProductDal isterse ona EfProductDal ver.
+        
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
