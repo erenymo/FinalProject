@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -10,17 +13,24 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+            
+        builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+        builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+        {
+            // AutofacBusinessModule'u ekleyerek dependency'leri çözme
+            builder.RegisterModule(new AutofacBusinessModule());
+        });
 
         // Add services to the container.
-
         builder.Services.AddControllers();
-        builder.Services.AddSingleton<IProductService, ProductManager>(); // Eğer constructor'da IProductService istenirse arkaplanda ProductManager new'le. 
-        builder.Services.AddSingleton<IProductDal, EfProductDal>(); // Eğer birisi senden IProductDal isterse ona EfProductDal ver.
-        
+        //builder.Services.AddSingleton<IProductService, ProductManager>(); // Eğer constructor'da IProductService istenirse arkaplanda ProductManager new'le. 
+        //builder.Services.AddSingleton<IProductDal, EfProductDal>(); // Eğer birisi senden IProductDal isterse ona EfProductDal ver.
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -30,6 +40,7 @@ public class Program
             app.UseSwaggerUI();
         }
 
+        
         app.UseHttpsRedirection();
 
         app.UseAuthorization();

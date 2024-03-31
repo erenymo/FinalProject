@@ -258,3 +258,8 @@
 /Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/DataAccess.pdb
 /Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Entities.pdb
 /Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Core.pdb
+/Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Autofac.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Autofac.Extensions.DependencyInjection.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Autofac.Extras.DynamicProxy.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/Castle.Core.dll
+/Users/erenymo/Desktop/dev/C#/FinalProject/WebAPI/WebAPI/bin/Debug/net8.0/FluentValidation.dll
