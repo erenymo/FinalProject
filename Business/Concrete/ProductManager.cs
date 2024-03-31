@@ -1,6 +1,7 @@
 using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.AutoFac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -51,11 +52,10 @@ public class ProductManager : IProductService
     {
         return new SuccessDataResult<Product>( _productDal.Get(p => p.ProductId == productId));
     }
-
+    
+    [ValidationAspect(typeof(ProductValidator))] // Product Validator'deki kurallara göre Add methodunu Doğrula
     public IResult Add(Product product)
     {
-        ValidationTool.Validate(new ProductValidator(),product);
-        
         _productDal.Add(product);
         
         return new SuccessResult(Messages.ProductAdded);
